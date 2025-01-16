@@ -7,14 +7,14 @@ loadstring(game:HttpGet("https://pastebin.com/raw/6brG9uma"))()
 
 game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
 
--- trollface
+-- Multiverse Mode badge
 coroutine.wrap(function()
     while true do
         wait(math.random(20,550))
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
 if workspace:FindFirstChild("SeekMoving") == nil and game:GetService("ReplicatedStorage").GameData.LatestRoom.Value ~= 50 then
         wait(1.5)
-loadstring(game:HttpGet("https://pastebin.com/raw/bNV4Dz18"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/j2DMegMv"))()
 end
     end
 end)()
